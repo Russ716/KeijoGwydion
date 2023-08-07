@@ -1,0 +1,14 @@
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\bin\Release\SuperAdventure.exe.config
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\bin\Release\SuperAdventure.exe
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\bin\Release\SuperAdventure.pdb
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\bin\Release\Engine.dll
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\bin\Release\Engine.pdb
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\obj\Release\SuperAdventure.csproj.AssemblyReference.cache
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\obj\Release\SuperAdventure.csproj.SuggestedBindingRedirects.cache
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\obj\Release\SuperAdventure.SuperAdventure.resources
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\obj\Release\SuperAdventure.Properties.Resources.resources
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\obj\Release\SuperAdventure.csproj.GenerateResource.cache
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\obj\Release\SuperAdventure.csproj.CoreCompileInputs.cache
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\obj\Release\SuperAdventure.csproj.CopyComplete
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\obj\Release\SuperAdventure.exe
+C:\Users\rpelton\source\repos\SuperAdventure\SuperAdventure\obj\Release\SuperAdventure.pdb

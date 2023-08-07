@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -70,6 +71,9 @@ namespace Engine {
             Items.Add(new Item(ITEM_ID_SPIDER_FANG, "Spider fang", "Spider fangs"));
             Items.Add(new Item(ITEM_ID_SPIDER_SILK, "Spider silk", "Spider silks"));
             Items.Add(new Item(ITEM_ID_ADVENTURER_PASS, "Adventurer pass", "Adventurer passes"));
+            //Private” means that this method can only be run by other code inside this class. 
+            //“Void” means that this method is not going to return a value. It’s just going to do some work. In this case, the work is to populate the Items list with the items in our game world.
+
 
         }
 
@@ -188,9 +192,12 @@ namespace Engine {
                 if (item.ID == id) {
                     return item;
                 }
-            }
+            } //public to call this from elsewhere. Static bc it's never an object, Item to return that value. Accepts an ID# and returns the item with that ID. 
 
             return null;
+            //Returning null is generally not a good idea. The code that called this function is expecting an “Item” object returned, and now it also needs to handle receiving a null.            This is one of those things we’re doing to keep it simple for these tutorials that you probably wouldn’t do in a “real” program.
+
+
         }
         //These methods are ones we can call to get values from the static lists. We could access the lists from lines 7 through 10 directly, since they are public. But these “wrapper” methods make it a little clearer exactly what we want to do.
         //We pass in the ID of the object we want to retrieve from its list (by using the constants from lines 16 through 42). The method will look at each item in the list (using the “foreach”) and see if the ID we passed in matches the ID of the object. If so, it returns that object to us. If we get to the end of the list, and nothing matches (which should really never happen), the method returns “null” – nothing.

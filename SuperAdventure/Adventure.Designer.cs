@@ -1,5 +1,5 @@
 ﻿namespace SuperAdventure {
-    partial class Adventure {
+    partial class SuperAdventure {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -116,16 +116,7 @@
             this.lblLevel.Size = new System.Drawing.Size(0, 13);
             this.lblLevel.TabIndex = 7;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(617, 531);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Select action";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
+            
             // cboWeapons
             // 
             this.cboWeapons.FormattingEnabled = true;

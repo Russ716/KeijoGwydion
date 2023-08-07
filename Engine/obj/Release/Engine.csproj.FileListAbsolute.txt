@@ -1,0 +1,6 @@
+C:\Users\rpelton\source\repos\SuperAdventure\Engine\bin\Release\Engine.dll
+C:\Users\rpelton\source\repos\SuperAdventure\Engine\bin\Release\Engine.pdb
+C:\Users\rpelton\source\repos\SuperAdventure\Engine\obj\Release\Engine.csproj.AssemblyReference.cache
+C:\Users\rpelton\source\repos\SuperAdventure\Engine\obj\Release\Engine.csproj.CoreCompileInputs.cache
+C:\Users\rpelton\source\repos\SuperAdventure\Engine\obj\Release\Engine.dll
+C:\Users\rpelton\source\repos\SuperAdventure\Engine\obj\Release\Engine.pdb

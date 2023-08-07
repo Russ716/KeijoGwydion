@@ -13,7 +13,7 @@ namespace SuperAdventure {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Adventure());
+            Application.Run(new SuperAdventure());
         }
     }
 }
