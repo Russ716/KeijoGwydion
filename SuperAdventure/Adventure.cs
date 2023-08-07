@@ -39,8 +39,12 @@ namespace SuperAdventure {
 
 
         }
+        //The ComboBoxes will let the player select which weapon, or potion, they want to use during a battle. The RichTextBoxes will display status information about where the player is at and what is happening to them. And the DataGridViews will show lists of what the player has in their inventory and what quests they have.
 
 
+        private void label5_Click(object sender, EventArgs e) {
+
+        }
     }
 
 }
