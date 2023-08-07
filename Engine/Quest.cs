@@ -17,7 +17,10 @@ namespace Engine {
             Description = description;
             RewardExperiencePoints = rewardExperiencePoints;
             RewardGold = rewardGold;
+            QuestCompletionItems = new List<QuestCompletionItem>();
         }
         public Item RewardItem { get; set; }
+        //The RewardItem property will store what item the player receives when they complete the quest.
+        public List<QuestCompletionItem> QuestCompletionItems { get; set; }
     }
 }
