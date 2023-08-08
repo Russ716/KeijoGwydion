@@ -1,13 +1,31 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace Engine.OTYOV {
     internal class NextPrompt {
         private Dictionary<int, List<char>> spacePrompts = new Dictionary<int, List<char>>();
+        private Dictionary<string, Prompt> promptDictionary = new Dictionary<string, Prompt>();
         private int currentPosition = 1;
+
+        private class Prompt {
+            public string Id { get; set; }
+            public string Message { get; set; }
+        }
+        private void InitializePrompts() {
+            // Load prompts from JSON file
+            string json = File.ReadAllText("prompts.json");
+            var prompts = JsonConvert.DeserializeObject<List<Prompt>>(json);
+
+            // Populate promptDictionary
+            foreach (var prompt in prompts) {
+                promptDictionary[prompt.Id] = prompt;
+            }
+        }
 
         private void btnMoveToNextPrompt_Click(object sender, EventArgs e) {
             int dTen = BetterRandomNumberGenerator.NumberBetween(1, 10);

@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,23 +44,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HealingPotion.cs" />
-    <Compile Include="InventoryItem.cs" />
-    <Compile Include="Item.cs" />
-    <Compile Include="LivingCreature.cs" />
-    <Compile Include="Location.cs" />
-    <Compile Include="LootItem.cs" />
-    <Compile Include="Monster.cs" />
-    <Compile Include="NumberAssigner.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="PlayerQuest.cs" />
+    <Compile Include="Adventure\Items\HealingPotion.cs" />
+    <Compile Include="Adventure\Items\InventoryItem.cs" />
+    <Compile Include="Adventure\Items\Item.cs" />
+    <Compile Include="Adventure\Creatures\LivingCreature.cs" />
+    <Compile Include="Adventure\Quests\Location.cs" />
+    <Compile Include="Adventure\Items\LootItem.cs" />
+    <Compile Include="Adventure\Creatures\Monster.cs" />
+    <Compile Include="Adventure\NumberAssigner.cs" />
+    <Compile Include="Adventure\Creatures\Player.cs" />
+    <Compile Include="Adventure\Quests\PlayerQuest.cs" />
+    <None Include="OTYOV\prompts.json" />
+    <Compile Include="OTYOV\NextPrompt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Quest.cs" />
-    <Compile Include="QuestCompletionItem.cs" />
-    <Compile Include="RandomNumberGenerator.cs" />
-    <Compile Include="Variables.cs" />
-    <Compile Include="Weapon.cs" />
-    <Compile Include="World.cs" />
+    <Compile Include="Adventure\Quests\Quest.cs" />
+    <Compile Include="Adventure\Items\QuestCompletionItem.cs" />
+    <Compile Include="Adventure\RandomNumberGenerator.cs" />
+    <Compile Include="Adventure\Variables.cs" />
+    <Compile Include="Adventure\Items\Weapon.cs" />
+    <Compile Include="Adventure\World.cs" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
